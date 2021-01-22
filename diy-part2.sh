@@ -12,3 +12,4 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git pacckage/luci-app-jd-dailybonus
+#rm -rf package/lean/luci-app-jd-dailybonus && mv luci-app-jd-dailybonus package/lean/
